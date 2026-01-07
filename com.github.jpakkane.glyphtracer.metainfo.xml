@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>com.github.jpakkane.glyphtracer</id>
   <launchable type="desktop-id">com.github.jpakkane.glyphtracer.desktop</launchable>
   <name>Glyphtracer</name>
-  <developer_name>Jussi Pakkanen</developer_name>
+  <developer id="io.github.jpakkane">
+    <name>Jussi Pakkanen</name>
+  </developer>
   <summary>Convert images of letters to a font</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <url type="homepage">https://github.com/jpakkane/glyphtracer</url>
+  <url type="bugtracker">https://github.com/jpakkane/glyphtracer/issues</url>
+  <url type="vcs-browser">https://github.com/jpakkane/glyphtracer</url>
   <description>
     <p>Glyphtracer takes an image that contains pictures of several letters. 
     It recognizes all them and lets the user tag each letter to a Unicode code point. 
